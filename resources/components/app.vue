@@ -6,11 +6,9 @@
 </template>
 
 <script>
-import Overview from './components/overview.vue'
+import Overview from './overview.vue';
 
 export default{
-    components: {
-        Overview
-    }
+  components: { Overview }
 }
 </script>

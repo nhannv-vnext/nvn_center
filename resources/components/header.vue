@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>{{ text }}</h3>
+    <h3>{{ logo_text }}</h3>
   </div>
 </template>
 
@@ -8,14 +8,9 @@
 export default {
   data: function () {
     return {
-      text: "Overview",
+      logo_text: "NVN",
     };
   },
 }
 </script>
 
-<style scoped>
-  h3{
-    color: red
-  }
-</style>
