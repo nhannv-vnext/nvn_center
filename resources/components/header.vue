@@ -1,6 +1,11 @@
 <template>
-  <div>
-    <h3>{{ logo_text }}</h3>
+  <div class="d-flex justify-content-between align-items-center">
+      <div>
+          <h2 class="text-danger">{{ logo_text }}</h2>
+      </div>
+      <div>
+          <a href="#">Login</a>
+      </div>
   </div>
 </template>
 
@@ -13,4 +18,3 @@ export default {
   },
 }
 </script>
-

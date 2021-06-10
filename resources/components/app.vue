@@ -1,14 +1,15 @@
 <template>
-  <div>
-    <h3>Hello World</h3>
+  <div class="container">
+    <Header/>
     <Overview/>
   </div>
 </template>
 
 <script>
 import Overview from './overview.vue';
+import Header from './header.vue';
 
 export default{
-  components: { Overview }
+  components: { Overview, Header }
 }
 </script>

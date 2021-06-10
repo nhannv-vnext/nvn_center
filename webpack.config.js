@@ -3,6 +3,7 @@ const { VueLoaderPlugin } = require('vue-loader');
 
 module.exports = {
     mode: 'development',
+    watch: true,
     entry: {
         index: './resources/index.js',
     },
@@ -17,12 +18,14 @@ module.exports = {
                 test: /\.vue$/,
                 loader: 'vue-loader'
             },
+
             // this will apply to both plain `.js` files
             // AND `<script>` blocks in `.vue` files
             {
                 test: /\.js$/,
                 loader: 'babel-loader'
             },
+            
             // this will apply to both plain `.css` files
             // AND `<style>` blocks in `.vue` files
             {
