@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container nvn-container">
     <Header/>
     <Overview/>
   </div>
@@ -13,3 +13,9 @@ export default{
   components: { Overview, Header }
 }
 </script>
+
+<style scoped>
+  .nvn-container{
+    margin-top: 30px
+  }
+</style>
