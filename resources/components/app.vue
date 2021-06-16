@@ -1,16 +1,18 @@
 <template>
-  <div class="container nvn-container">
+  <div>
     <Header/>
-    <Overview/>
+    <div class="container nvn-container">
+      <Page/>
+    </div>
   </div>
 </template>
 
 <script>
-import Overview from './overview.vue';
 import Header from './header.vue';
+import Page from './page.vue';
 
 export default{
-  components: { Overview, Header }
+  components: { Header, Page }
 }
 </script>
 

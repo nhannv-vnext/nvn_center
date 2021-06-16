@@ -1,3 +1,41 @@
+/* link */
 a.link-text{
     text-decoration: none;
+}
+
+/* margin */
+.mr-5px{
+    margin-right: 5px;
+}
+.mr-15px{
+    margin-right: 15px;
+}
+
+/* font size */
+.fs-80-percent{
+    font-size: 0.8rem;
+}
+.fs-150-percent{
+    font-size: 1.5rem;
+}
+
+/* heading */
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+} 
+
+/* tag */
+a.tag{
+    display: inline-block;
+    color: rgb(57, 115, 157);
+    background-color: rgb(225, 236, 244);
+    border-radius: 3px;
+    padding: 4px 6px;
+    font-size: 14px;
+    line-height: 14px;
+    text-decoration: none;
+}
+a.tag:hover{
+    color: rgb(44, 145, 202);
+    background-color: rgb(209, 229, 241);
 }

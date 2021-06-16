@@ -1,3 +1,4 @@
+// import './images/user.png';
 import './css/index.css';
 import Vue from 'vue';
 import App from './components/app.vue';
@@ -11,7 +12,7 @@ var datetime = "Last Sync: " + currentdate.getDate() + "/"
                 + currentdate.getSeconds();
                
 console.log(datetime);
-                
+                 
 var vm = new Vue({
     el: '#app',
     render: h => h(App)
